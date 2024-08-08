@@ -25,6 +25,7 @@ class SettingController extends Controller
     protected $res;
     public function update_setting(Request $request)
     {
+        // return $request->all();
         try {
             $data = $request->validate([
                 'key' => "required|exists:settings,key",

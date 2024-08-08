@@ -20,16 +20,16 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/blog',function() {
-    return view('webistecontent.blog');
+// Route::get('/layout',function() {
+//     return view('webistecontent.layout');
+// });
+
+Route::get('/register',function() {
+    return view('webistecontent.register');
 });
 
-Route::get('/about',function() {
-    return view('webistecontent.about');
-});
-
-Route::get('/services',function() {
-    return view('webistecontent.services');
+Route::get('/login',function() {
+    return view('webistecontent.login');
 });
 
 Route::get('/contact',function() {

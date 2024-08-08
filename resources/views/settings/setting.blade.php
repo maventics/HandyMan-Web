@@ -11,7 +11,7 @@
         </div>
     @endif
 
-     @if ($message = Session::get('danger'))
+     {{-- @if ($message = Session::get('danger'))
         <div id="dangerMessage"
             class="alert alert-danger alert-dismissible alert-solid alert-label-icon fade show position-fixed top-0 end-0"
             style="z-index: 9999; margin-top: 25px;" role="alert">
@@ -28,7 +28,7 @@
                 @endforeach
             </ul>
         </div>
-    @endif 
+    @endif  --}}
 
     <!-- start page title -->
     <div class="row">
@@ -68,8 +68,8 @@
                                                 <input type="hidden" name="key"
                                                         value="{{ $setting->key }}" class="form-control">
                                                 @if($setting->key == 'logo')
-                                                <input type="file" name="{{ $setting->key }}" class="form-control">
-                                                @else
+                                                <input type="file" name="logo" value="{{ $setting->value }}" class="form-control">
+                                            @else
                                                     <input name="value" value="{{ $setting->value }}"
                                                         class="form-control">
                                                 @endif

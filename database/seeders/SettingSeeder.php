@@ -15,7 +15,7 @@ class SettingSeeder extends Seeder
     {
         SettingModel::create([
             'key'=>"name",
-            'value'=>'HandyManServices',
+            'value'=>'HandyMan',
         ]);
         SettingModel::create([
             'key'=>"logo",
