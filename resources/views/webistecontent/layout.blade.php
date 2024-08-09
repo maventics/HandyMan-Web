@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-<title>KofeJob</title>
+<title>Handy Man</title>
 
 <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
@@ -52,7 +52,8 @@
 </span>
 </a>
 <a href="index.html" class="navbar-brand logo">
-<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
+{{-- <img src="assets/img/logo.svg" class="img-fluid" alt="Logo"> --}}
+<h6 style="font-size: 2rem;">HANDY MAN</h6>
 </a>
 </div>
 <div class="main-menu-wrapper">
@@ -253,7 +254,7 @@
 <div class="row">
 <div class="col-md-12">
 <div class="copyright-text text-center">
-<p class="mb-0">Copyright 2024 © KofeJob. All right reserved.</p>
+<p class="mb-0">Copyright 2024 © Handy Man. All right reserved.</p>
 </div>
 </div>
 </div>

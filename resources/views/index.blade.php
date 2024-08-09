@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-<title>KofeJob</title>
+<title>Handy Man</title>
 
 <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
@@ -52,13 +52,13 @@
 </span>
 </a>
 <a href="index.html" class="navbar-brand logo">
-<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
+    <h6 style="font-size: 2rem;">HANDY MAN</h6>
 </a>
 </div>
 <div class="main-menu-wrapper">
 <div class="menu-header">
 <a href="index.html" class="menu-logo">
-<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
+    <h6 style="font-size: 2rem;">HANDY MAN</h6>
 </a>
 <a id="menu_close" class="menu-close" href="javascript:void(0);">
 <i class="fas fa-times"></i>

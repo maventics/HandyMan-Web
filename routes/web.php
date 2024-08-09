@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\SettingController;
+use App\Http\Controllers\User\RegisterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -53,4 +54,9 @@ Route::group(['middleware'=>['admin']],function () {
     Route::get('/admin/settings', [SettingController::class, 'index']);
     Route::post('/admin/update_setting', [SettingController::class, 'update_setting'])->name('update_setting');
     
+});
+
+Route::group(['middleware'=>['guest:web']],function () {
+    Route::post('/register',[RegisterController::class,'store']);
+    Route::get('/register2',[RegisterController::class,'register2']);
 });
